@@ -1,4 +1,21 @@
 {
+  "author":"",
+  "lastModified":"",
+  "version":"",
+  "project":"",
+  "assetsFolder":"assets",
+  "dependecies":[
+    {
+      "name":"jquery",
+      "version":"2.1.4",
+      "source":"js/lib/jquery-2.1.4.min.js"
+    },
+    {
+      "name":"require",
+      "version":"2.1.20",
+      "source":"js/require.js"
+    }
+  ],
   "item":{
     "pageHead":{
       "metas":[
@@ -40,6 +57,32 @@
           "async":false
         }
       ]
+    },
+    "bodyWrapper":"",
+    "header":{
+      "useHTML5":true,
+      "tag":"header",
+      "class":"",
+      "id":"ID",
+      "data":[
+        {
+          "element":"",
+          "value":""
+        }
+      ],
+      "style":[
+        {
+          "element":"",
+          "value":""
+        }
+      ],
+      "bindings":[
+        {
+          "handler":"",
+          "function":""
+        }
+      ],
+      "visible":true
     },
     "pageItems":{
       "block":[
@@ -107,6 +150,31 @@
           ]
         }
       ]
+    },
+    "footer":{
+      "useHTML5":true,
+      "tag":"header",
+      "class":"",
+      "id":"ID",
+      "data":[
+        {
+          "element":"",
+          "value":""
+        }
+      ],
+      "style":[
+        {
+          "element":"",
+          "value":""
+        }
+      ],
+      "bindings":[
+        {
+          "handler":"",
+          "function":""
+        }
+      ],
+      "visible":true
     }
   }
 }
