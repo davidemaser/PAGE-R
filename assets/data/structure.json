@@ -1,0 +1,112 @@
+{
+  "item":{
+    "pageHead":{
+      "metas":[
+        {
+          "type":"name",
+          "value":"robots",
+          "content":"The Last Hunt"
+        },
+        {
+          "type":"property",
+          "value":"og:type",
+          "content":"website"
+        }
+      ],
+      "link":[
+        {
+          "type":"rel",
+          "value":"alternate",
+          "content":"website",
+          "custom":"hreflang",
+          "customValue":"fr"
+        }
+      ],
+      "sources":[
+        {
+          "type":"css",
+          "href":"...",
+          "rel":"stylesheet",
+          "typeCode":"text/css",
+          "media":"fr",
+          "async":false
+        },
+        {
+          "type":"js",
+          "href":"...",
+          "rel":null,
+          "typeCode":"text/javascript",
+          "media":null,
+          "async":false
+        }
+      ]
+    },
+    "pageItems":{
+      "block":[
+        {
+          "tag":"",
+          "data":[
+            {
+              "element":"",
+              "value":""
+            }
+          ],
+          "style":[
+            {
+              "element":"",
+              "value":""
+            }
+          ],
+          "visible":true,
+          "class":"",
+          "id":"",
+          "custom":[
+            {
+              "attribute":"",
+              "value":""
+            }
+          ],
+          "bindings":[
+            {
+              "handler":"",
+              "function":""
+            }
+          ],
+          "instructions":[
+            {
+              "mobile":{
+                "friendly":true,
+                "minWidth":"",
+                "maxWidth":"",
+                "animate":true
+              },
+              "tablet":{
+                "friendly":true,
+                "minWidth":"",
+                "maxWidth":"",
+                "animate":true
+              },
+              "exceptions":[
+                {
+                  "condition": "if",
+                  "platform": "IE",
+                  "action": "goToElseWhere"
+                },
+                {
+                  "condition": "else if",
+                  "platform": "IE9",
+                  "action": "goToElseWhere"
+                },
+                {
+                  "condition": "else",
+                  "platform": null,
+                  "action": "goToElseWhere"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
