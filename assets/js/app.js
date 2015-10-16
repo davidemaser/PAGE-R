@@ -2,13 +2,13 @@
  * Created by david-maser on 16/10/15.
  */
 requirejs.config({
-    "baseUrl": "assets/js/lib",
+    "baseUrl": "assets/bower_components",
     "paths": {
         "app": ""
     },
     "shim": {
-        "jquery": ["jquery-2.1.4.min"]
+        "jquery": ["jquery/dist/jquery.min"]
     }
 });
 // Load the main app module to start the app
-requirejs(["../compile"]);
+requirejs(["../js/compile"]);
